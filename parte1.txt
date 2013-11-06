@@ -60,3 +60,43 @@ namespace Practica6
 		{
 			
 		}
+                void CheckBox5CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void NumericUpDown1ValueChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void MonthCalendar1DateChanged(object sender, DateRangeEventArgs e)
+		{
+			
+		}
+		void Button1Click(object sender, EventArgs e)
+		{
+			int Acierto=0;
+			if(this.DF.Checked){
+				Acierto++;
+			}
+			if(this.Reiuni.Checked){
+				Acierto++;
+			}
+			if(this.Mace.Checked){
+				Acierto++;
+			}
+			if(this.Portugal.Checked){
+				Acierto++;
+			}
+			if(this.Portugal.Checked){
+				Acierto++;
+			}
+			DateTime fecha = Calendario.SelectionStart;
+			if(fecha.ToShortDateString()=="07/05/1945"){
+				Acierto++;
+			}
+			
+			MessageBox.Show("Aciertos " + Acierto);
+		}
+	}
+}
+ 
