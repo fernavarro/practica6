@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace Practica6
+{
+	/// <summary>
+	/// Description of MainForm.
+	/// </summary>
+	public partial class MainForm : Form
+	{
+		public MainForm()
+		{
+			
+			InitializeComponent();
+			
+		}
+		void Label1Click(object sender, EventArgs e)
+		{
+			
+		}
+		void Label2Click(object sender, EventArgs e)
+		{
+			
+		}
+		void TextBox1TextChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void TextBox2TextChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void RadioButton1CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void RadioButton2CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void RadioButton3CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void CheckBox1CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void CheckBox2CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void CheckBox3CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
+		void CheckBox4CheckedChanged(object sender, EventArgs e)
+		{
+			
+		}
